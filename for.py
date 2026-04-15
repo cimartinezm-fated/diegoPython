@@ -79,5 +79,20 @@
 
 
 num=int(input("Ingrese la cant de alumnos: "))
+apro=0
+repro=0
+for i in range(num):
+    notas=int(input(f"Ingrese la cant de notas del alumno {i+1}: "))
+    suma=0
+    for j in range(notas):
+        n=float(input(f"Ingrese la nota  {j+1}: "))
+        suma=suma+n
+    prom=suma/notas
+    print("El promedio es", prom)
 
-
+    if prom>=4:
+        print("ALumno aprobado")
+        apro+=1
+    else:
+        print("ALumno reprobado")
+        repro+=1
