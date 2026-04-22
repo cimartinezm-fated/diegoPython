@@ -46,7 +46,7 @@ def divi():
     print(f"El resultado es {n1/n2}")
 
 
-def 
+# def 
 
 op=0
 while op!=5:
