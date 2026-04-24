@@ -120,3 +120,7 @@ for i in name:
         conso=conso+1
 print(f"La cantidad de vocales es {vocales}")
 print(f"La cantidad de consocnantes es {conso}")
+
+
+
+
